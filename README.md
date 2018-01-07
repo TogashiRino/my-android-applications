@@ -1,2 +1,2 @@
 # my-android-applications
-my very first basic android application 
+my very first basic android applications
