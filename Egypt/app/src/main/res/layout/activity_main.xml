@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.egypt.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#EFEBE9"
+        android:text="Welcome to Egypt Knowledge Quiz!"
+        android:textAlignment="center"
+        android:textColor="#4E342E"
+        android:textColorHighlight="#8D6E63"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/egypt" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Answer the following questions: "
+        android:textColor="#4E342E"
+        android:textColorHighlight="#8D6E63"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="1) who is the Architect behind the pyramids?"
+        android:textColor="#4E342E"
+        android:textSize="14sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Imhotep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question1"
+            android:text=" Imhotep"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question1"
+            android:text="Eminem"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question1"
+            android:text="Beyonce"
+            android:textColor="#F9A825" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="2) Where are the pyramids located?"
+        android:textColor="#4E342E"
+        android:textSize="14sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Giza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question2"
+            android:text=" Giza"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question2"
+            android:text="Miami"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question2"
+            android:text="Tokyo"
+            android:textColor="#F9A825" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="3) Name of the river that Egypt coastlines on?"
+        android:textColor="#4E342E"
+        android:textSize="14sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question3"
+            android:text=" yein"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question3"
+            android:text="bayle"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:id="@+id/Nile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question3"
+            android:text="Nile"
+            android:textColor="#F9A825" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="4) Place where Moses received the Ten Commandments?"
+        android:textColor="#4E342E"
+        android:textSize="14sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question4"
+            android:text=" Mount Tarek"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:id="@+id/Sinai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question4"
+            android:text="Mount Sinai"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question4"
+            android:text="Mount diar"
+            android:textColor="#F9A825" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="5) Name of this queen means -she who comes from glorious father-?"
+        android:textColor="#4E342E"
+        android:textSize="14sp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question5"
+            android:text=" Rihanna"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question5"
+            android:text=" Hatshepsut"
+            android:textColor="#F9A825" />
+
+        <RadioButton
+            android:id="@+id/Cleopatra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="question5"
+            android:text="Cleopatra"
+            android:textColor="#F9A825" />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="submit"
+        android:text="show score"
+        android:textColor="#4E342E"
+        android:gravity="center"/>
+</LinearLayout>
+</ScrollView>
